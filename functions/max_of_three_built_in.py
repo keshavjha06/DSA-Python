@@ -1,0 +1,7 @@
+print("Enter three built-in numbers:")
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+# max of three: print(max(max(a, b), c))
+print(max(max(a, b), max(c, d)))
