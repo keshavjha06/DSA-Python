@@ -1,0 +1,17 @@
+# set is Python's HashSet (unordered); sorted(numbers) gives TreeSet-like order
+numbers = set()
+numbers.add(77)
+numbers.add(65)
+numbers.add(21)
+numbers.add(2)
+numbers.add(11)
+numbers.add(45)
+numbers.add(3)
+for ele in numbers:
+    print(ele, end=" ")
+print(len(numbers))
+print(numbers)
+print(45 in numbers, 18 in numbers)
+numbers.remove(21)
+print(21 in numbers)
+print(len(numbers))
